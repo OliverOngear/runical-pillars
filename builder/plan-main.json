@@ -1,0 +1,24 @@
+[
+    {
+        "type" : "page",
+        "name": "main",
+        "htmlfile": "main.html",
+        "htmlroot": "components/lobby.html",
+        "stylesheet": "main.css"
+    },
+
+    {   
+        "type" : "component",
+        "name": "lobby",
+        "script": "lobby.js",
+        "jsroot": "lobby.js"
+    },
+
+    {   
+        "type" : "component",
+        "name": "topbar",
+        "script": "topbar.js",
+        "jsroot": "topbar.js"
+    }
+
+]
