@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'RobotoMono';
+    src: url('RobotoMono-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    background-color: black;
+    width: 100vw;
+    min-height: 100vh;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.lobby-cont {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bitscont{
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fill, 50px);
+    grid-auto-rows: 50px;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.over {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+}
+
+.logo {
+    width: 30%;
+    height: auto;
+}
+
+.titulo {
+    background-color: black;
+    color: #cc0000ff;
+    font-family: 'RobotoMono', sans-serif;
+    font-size: 4vw;
+    font-weight: bold;
+}
